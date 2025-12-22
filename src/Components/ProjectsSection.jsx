@@ -8,7 +8,7 @@ const project = [
         id: 1,
         title: "News Blogger",
         Description: "Build a modern and responsive news website using React JS and Bootstrap. This project demonstrates how to seamlessly integrate Bootstrap into a React application to create a clean, functional user interface with dynamic content rendering. Ideal for showcasing current headlines and categorized news articles in a user-friendly layout.",
-        image: "/Projects/Project01.PNG",
+        image: "/Projects/newsblog.PNG",
         Tags: ["React JS", "Bootstrap", "TailwindCSS", "HTML"],
         demoUrl: "https://news-blogger-rho.vercel.app/",
         githubUrl: "https://github.com/imanka-dev"

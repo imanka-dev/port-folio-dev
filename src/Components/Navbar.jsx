@@ -39,16 +39,16 @@ export const Navbar = () => {
             href="#hero">
                 <span className="relative z-10">
                     <span className="text-glow text-foreground">
-                        PedroTech
+                        Imanka's
 
                     </span> Portfolio
                 </span>
             </a>
 
             {/* desktop nav */}
-            <div className="hidden md:flex space-x-8">
+            <div className="hidden md:flex space-x-8 mr-auto ml-160">
                 {navItems.map((item,key) => (
-                    <a key={key} href={item.href} className="text-foreground/80 hover:text-primary transition-colors duration-300">
+                    <a key={key} href={item.href} className="text-foreground/80 hover:text-primary transition-colors duration-300 text-lg font-semibold">
                         {item.name}
 
                     </a>

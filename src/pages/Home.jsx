@@ -5,6 +5,7 @@ import { Navbar } from "../Components/Navbar";
 import { ThemeToggle } from "../Components/ThemeToggle";
 import { StarBackground } from "@/Components/StarBackground";
 import { ProjectsSection } from "../Components/ProjectsSection";
+import { ContactSection } from "../Components/ContactSection";
 
 export const Home = () => {
     return(
@@ -25,6 +26,7 @@ export const Home = () => {
                 <AboutSection />
                 <SkillsSection />
                 <ProjectsSection />
+                <ContactSection />
             </main>
 
             {/*Footer*/}
