@@ -26,35 +26,36 @@ export const AboutSection = () => {
                             </div>
                         </div>
                      <div className="grid grid-cols-1 gap-6">
-                        <div className="gradient-border p-6 card-hover">
+                        <div className="gradient-border p-6 card-hover bg-gradient-to-br from-cyan-500/5 to-blue-500/5 hover:from-cyan-500/20 hover:to-blue-500/20 border-cyan-500/30 hover:border-cyan-500/70 transition-all duration-300 hover:scale-105 hover:-translate-y-2 cursor-pointer">
                             <div className="flex items-start gap-4">
-                                <div className="p-3 rounded-full bg-primary/10 ">
-                                    <Code className="h-6 w-6 text-primary" />
+                                <div className="p-3 rounded-full bg-cyan-500/20 hover:bg-cyan-500/40 transition-colors duration-300">
+                                    <Code className="h-6 w-6 text-cyan-400" />
                                 </div>
                                 <div className="text-left">
-                                    <h4 className="font-semibold text-lg">Web Development</h4>
+                                    <h4 className="font-semibold text-lg text-cyan-300">Web Development</h4>
                                     <p className="text-muted-foreground">Creating responsive and user-friendly web applications using the MERN stack.</p>
                                 </div>
                             </div>
                         </div>
-                        <div className="gradient-border p-6 card-hover"><div className="flex items-start gap-4">
-                                <div className="p-3 rounded-full bg-primary/10 ">
-                                    <School className="h-6 w-6 text-primary" />
+                        <div className="gradient-border p-6 card-hover bg-gradient-to-br from-purple-500/5 to-pink-500/5 hover:from-purple-500/20 hover:to-pink-500/20 border-purple-500/30 hover:border-purple-500/70 transition-all duration-300 hover:scale-105 hover:-translate-y-2 cursor-pointer">
+                            <div className="flex items-start gap-4">
+                                <div className="p-3 rounded-full bg-purple-500/20 hover:bg-purple-500/40 transition-colors duration-300">
+                                    <School className="h-6 w-6 text-purple-400" />
                                 </div>
                                 <div className="text-left">
-                                    <h4 className="font-semibold text-lg">Web Development</h4>
-                                    <p className="text-muted-foreground">Creating responsive and user-friendly web applications using the MERN stack.</p>
+                                    <h4 className="font-semibold text-lg text-purple-300">Education & Learning</h4>
+                                    <p className="text-muted-foreground">Continuously expanding my knowledge through courses and real-world projects.</p>
                                 </div>
                             </div>
                         </div>
-                        <div className="gradient-border p-6 card-hover">
+                        <div className="gradient-border p-6 card-hover bg-gradient-to-br from-green-500/5 to-emerald-500/5 hover:from-green-500/20 hover:to-emerald-500/20 border-green-500/30 hover:border-green-500/70 transition-all duration-300 hover:scale-105 hover:-translate-y-2 cursor-pointer">
                             <div className="flex items-start gap-4">
-                                <div className="p-3 rounded-full bg-primary/10 ">
-                                    <Briefcase className="h-6 w-6 text-primary" />
+                                <div className="p-3 rounded-full bg-green-500/20 hover:bg-green-500/40 transition-colors duration-300">
+                                    <Briefcase className="h-6 w-6 text-green-400" />
                                 </div>
                                 <div className="text-left">
-                                    <h4 className="font-semibold text-lg">Web Development</h4>
-                                    <p className="text-muted-foreground">Creating responsive and user-friendly web applications using the MERN stack.</p>
+                                    <h4 className="font-semibold text-lg text-green-300">Professional Experience</h4>
+                                    <p className="text-muted-foreground">Internship experience and collaboration with teams on impactful projects.</p>
                                 </div>
                             </div>
                         </div>

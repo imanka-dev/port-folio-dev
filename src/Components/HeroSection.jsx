@@ -47,11 +47,11 @@ export const HeroSection = () => {
                     <div className="relative flex justify-center md:justify-end items-center order-1 lg:order-2 opacity-0 animate-fade-in mt-20 md:mt-0">
                         <div className="relative w-56 h-56 md:w-80 md:h-80 lg:w-96 lg:h-96">
                             {/* Glowing Background Circles */}
-                            <div className="absolute inset-0 rounded-full bg-primary/20 blur-3xl animate-pulse"></div>
-                            <div className="absolute inset-0 rounded-full border-2 border-primary/30 scale-105"></div>
+                            <div className="absolute inset-0 rounded-full bg-gradient-to-r from-cyan-500/30 to-primary/30 blur-3xl animate-pulse"></div>
+                            <div className="absolute inset-0 rounded-full border-2 border-primary/50 scale-105 shadow-[inset_0_0_20px_rgba(6,182,212,0.3)]"></div>
                             
                             {/* The Image Container */}
-                            <div className="relative w-full h-full rounded-full border-4 border-cyan-500/50 overflow-hidden shadow-[0_0_50px_rgba(6,182,212,0.3)]">
+                            <div className="relative w-full h-full rounded-full border-4 border-cyan-500/70 overflow-hidden shadow-[0_0_60px_rgba(6,182,212,0.5),0_0_100px_rgba(59,130,246,0.3)]">
                                 <img 
                                     src="/Projects/dp.jpg"
                                     alt="Imanka Silva"

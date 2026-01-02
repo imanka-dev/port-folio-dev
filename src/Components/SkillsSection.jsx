@@ -62,7 +62,7 @@ export const SkillsSection = () => {
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
                     { filterSkills.map((skill, key) => (
-                        <div key={key} className="bg-card p-6 rounded-lg shadow-xs card-hover">
+                        <div key={key} className="bg-card p-6 rounded-lg card-hover border border-primary/20 hover:border-primary/50 shadow-[0_8px_32px_rgba(139,92,246,0.15)] hover:shadow-[0_12px_48px_rgba(139,92,246,0.25),0_0_30px_rgba(139,92,246,0.2)] transition-all duration-300 hover:-translate-y-1">
                             <div className="text-left mb-4">
                                 <h3 className="font-semibold text-lg">{skill.name}</h3>
                             </div>

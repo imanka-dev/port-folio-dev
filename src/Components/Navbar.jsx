@@ -16,10 +16,13 @@ const navItems = [
 export const Navbar = () => {
     const [isScrolled, setIsScrolled] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [scrollY, setScrollY] = useState(0);
 
     useEffect(() => {
         const handleScroll = () => {
-            setIsScrolled(window.screenY > 10)
+            const scrollPosition = window.scrollY;
+            setScrollY(scrollPosition);
+            setIsScrolled(scrollPosition > 10)
         }
 
         window.addEventListener('scroll', handleScroll)
@@ -37,8 +40,8 @@ export const Navbar = () => {
         <div className="container flex items-center justify-between">
             <a className="text-xl font-bold text-primary flex items-center "
             href="#hero">
-                <span className="relative z-10">
-                    <span className="text-glow text-foreground">
+                <span className="relative z-10 transition-opacity duration-300" style={{opacity: Math.max(0, 1 - scrollY / 300)}}>
+                    <span className="text-glow text-foreground transition-opacity duration-300" style={{opacity: Math.max(0, 1 - scrollY / 300)}}>
                         Imanka's
 
                     </span> Portfolio

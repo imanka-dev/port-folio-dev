@@ -6,6 +6,7 @@ import { ThemeToggle } from "../Components/ThemeToggle";
 import { StarBackground } from "@/Components/StarBackground";
 import { ProjectsSection } from "../Components/ProjectsSection";
 import { ContactSection } from "../Components/ContactSection";
+import { Footer } from "../Components/Footer";
 
 export const Home = () => {
     return(
@@ -30,7 +31,7 @@ export const Home = () => {
             </main>
 
             {/*Footer*/}
-
+                <Footer />
 
         </div>
     )
